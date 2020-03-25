@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+body {
+  background-image: url('https://media.istockphoto.com/vectors/abstract-blurred-light-on-blue-water-sea-or-ocean-background-for-vector-id849676868?k=6&m=849676868&s=170667a&w=0&h=zv6cVYbs4ba8pqPGpV0Az5ZChWD0FH_sp9yF4wlH3-g=');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 24px;
+}
+
+#yellow-block {
+  position: absolute;
+  display: none;
+  margin-top: 5px;
+  margin-left: 2.5px;
+  width: 10px;
+  height: 15px;
+  background-color: yellow;
+  padding: 0
+}
+
+.keyboard-container {
+  margin-top: 200px;
+}
+
+#target-letter {
+  font-size: 38px;  
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+#feedback {
+  font-size: 20px;
+}
+.glyphicon-ok {
+  color: #1DA237
+}
+
+.glyphicon-remove {
+  color : #CD2626
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.playAgain {
+  display: none;
+  border:white 10px solid;
+  border-radius: 3px;
+  padding: 10px
+}
+
+.end-class {
+  font-family: Courier New, Courier, monospace;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 2.5px;
+  margin-bottom: 5px;
+}
+
+.highlight2 {
+  background-color: yellow;
+  color: black;
+}
